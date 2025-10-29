@@ -4,4 +4,7 @@ redis
 rq
 psycopg2-binary
 sqlalchemy
+sqlalchemy[asyncio]
+asyncpg
 pydantic
+python-dotenv

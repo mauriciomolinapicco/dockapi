@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
 
 COPY requirements.txt /app/requirements.txt
 
-RUN pip intall --upgrade pip
+RUN pip install --upgrade pip
 RUN pip install -r /app/requirements.txt
 
 COPY ./app /app 
